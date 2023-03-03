@@ -18,4 +18,4 @@ def check_palindrome(s):
 
 
 if __name__ == "__main__":
-    print(check_palindrome(input()))
+    print(check_palindrome(input().strip().lower()))
