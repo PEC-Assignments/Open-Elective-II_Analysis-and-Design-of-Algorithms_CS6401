@@ -1,3 +1,5 @@
+# Solution of Question 2 -  Motu Patlu Brick Game.
+
 import sys
 sys.stdin = open("input.txt", "r")
 sys.stdout = open("output.txt", "w")
