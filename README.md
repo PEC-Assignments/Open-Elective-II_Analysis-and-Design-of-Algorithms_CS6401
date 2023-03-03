@@ -1,2 +1,3 @@
-# Open-Elective-II--Analysis-Design-of-Algorithms-CS6401-CS5401-
+# Open-Elective-II_Analysis-and-Design-of-Algorithms_CS6401
+
 Repository to store all the lab assignments of OEII.
