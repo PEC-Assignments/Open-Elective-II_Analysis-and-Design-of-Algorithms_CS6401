@@ -1,5 +1,12 @@
 # Solution of Question 1.
 
+import sys
+sys.stdin = open("input.txt", "r")
+sys.stdout = open("output.txt", "w")
+sys.stderr = open("error.txt", "w")
+# Comment the above 4 lines if you are not using file input output.
+
+
 def no_of_stairs(n):
 
     # Recursive Solution
