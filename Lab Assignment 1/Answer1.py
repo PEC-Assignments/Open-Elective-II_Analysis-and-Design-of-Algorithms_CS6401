@@ -1,4 +1,4 @@
-# Solution of Question 1.
+# Solution of Question 1 -  Staircase problem.
 
 import sys
 sys.stdin = open("input.txt", "r")
