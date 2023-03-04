@@ -6,7 +6,6 @@ sys.stdout = open("output.txt", "w")
 sys.stderr = open("error.txt", "w")
 # Comment the above 4 lines if you are not using file input output.
 
-
 def no_of_stairs(n):
 
     # Recursive Solution
@@ -29,3 +28,7 @@ def no_of_stairs(n):
 
 if __name__ == "__main__":
     print(no_of_stairs(int(input())))
+
+# Complexity Analysis of the above solution:
+# Time Complexity: O(n)
+# Space Complexity: O(n)
