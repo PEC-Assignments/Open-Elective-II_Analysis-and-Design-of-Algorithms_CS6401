@@ -1,3 +1,5 @@
+# Solution to Question 2 - Recursive Exponentiation.
+
 import sys
 sys.stdin = open("input.txt", "r")
 sys.stdout = open("output.txt", "w")
