@@ -19,3 +19,7 @@ def check_palindrome(s):
 
 if __name__ == "__main__":
     print(check_palindrome(input().strip().lower()))
+
+# Complexity Analysis of the above solution:
+# Time Complexity: O(n)
+# Space Complexity: O(1)
