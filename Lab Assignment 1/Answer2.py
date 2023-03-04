@@ -21,3 +21,7 @@ def brick_game(n):
 
 if __name__ == "__main__":
     print(brick_game(int(input())))
+
+# Complexity Analysis of the above solution:
+# Time Complexity: O(1)
+# Space Complexity: O(1)
