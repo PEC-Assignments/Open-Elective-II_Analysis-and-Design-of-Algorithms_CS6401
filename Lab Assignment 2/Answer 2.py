@@ -8,9 +8,7 @@ sys.stderr = open("error.txt", "w")
 
 
 def pow(i, e):
-    if e == 0:
-        return 1
-    elif e == 1:
+    if e == 1:
         return i
     else:
         return i * pow(i, e - 1)
