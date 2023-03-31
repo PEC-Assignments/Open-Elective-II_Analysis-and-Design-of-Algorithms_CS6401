@@ -31,13 +31,7 @@ def check_palindrome(s):
 
     # Python specific solution
     '''
-    if len(s) == 0 or len(s) == 1:
-        return "True"
-    else:
-        if s == s[::-1]:
-            return "True"
-        else:
-            return "False"
+    return s == s[::-1]
     '''
 
 
