@@ -19,10 +19,15 @@ except:
 
 
 def pow(i, e):
-    if e == 1:
-        return i
+    if e == 0:
+        return 1
+
+    temp = pow(i, e // 2)
+
+    if e % 2 == 0:
+        return temp*temp
     else:
-        return i * pow(i, e - 1)
+        return i*temp*temp
 
 
 if __name__ == "__main__":
