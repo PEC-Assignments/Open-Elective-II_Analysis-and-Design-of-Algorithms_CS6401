@@ -1,10 +1,21 @@
 # Solution of Question 2 -  Motu Patlu Brick Game.
 
+# ---------------- MSB's Coding Template ---------------- #
+'''
+    "ɴᴏ ᴄᴏᴅᴇ ɪꜱ ᴘᴇʀꜰᴇᴄᴛ"
+'''
+
+# ---I/O from file---#
 import sys
-sys.stdin = open("input.txt", "r")
-sys.stdout = open("output.txt", "w")
-sys.stderr = open("error.txt", "w")
-# Comment the above 4 lines if you are not using file input output.
+try:
+    sys.stdin = open("input.txt", "r")
+    sys.stdout = open("output.txt", "w")
+    sys.stderr = open("output.txt", "w")
+except:
+    pass
+
+
+# ---------------------- Code Starts Here ----------------------#
 
 
 def brick_game(n):
