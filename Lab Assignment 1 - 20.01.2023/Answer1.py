@@ -16,6 +16,8 @@ except:
 
 
 # ---------------------- Code Starts Here ----------------------#
+
+
 def no_of_stairs(n):
 
     # Recursive Solution
