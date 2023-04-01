@@ -28,6 +28,8 @@ def letterCasePermutation(S):
 
 
 if __name__ == "__main__":
-    S = "a1b2"
-    result = letterCasePermutation(S)
     print(letterCasePermutation(input()))
+
+# Complexity Analysis of the above solution:
+# Time Complexity: O(2^n)
+# Space Complexity: O(2^n)
