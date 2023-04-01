@@ -7,12 +7,19 @@ Note:
 2. The string 'S' only contains English alphabets and digits.
 
 Sample Input 1:
-a1b
+
+    a1b
+
 Sample Output 1:
-A1B A1b a1B a1b
+
+    A1B A1b a1B a1b
 
 Sample Input 2:
-0
+
+    0
+
 Sample Output 2:
-0
+
+    0
+
 Explanation: There is no alphabet in the string, so we get the output same as the input string.
