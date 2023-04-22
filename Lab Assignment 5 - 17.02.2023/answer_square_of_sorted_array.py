@@ -1,29 +1,20 @@
 # Solution Question - Square of sorted Array
 
-
 # ---------------- MSB's Coding Template ---------------- #
 
 """
-
     "ɴᴏ ᴄᴏᴅᴇ ɪꜱ ᴘᴇʀꜰᴇᴄᴛ"
-
 """
 
-
 # ---I/O from file---#
-
 import sys
 
 try:
     sys.stdin = open("input.txt", "r", encoding="UTF-8")
-
     sys.stdout = open("output.txt", "w", encoding="UTF-8")
-
     sys.stderr = open("output.txt", "w", encoding="UTF-8")
-
 except FileNotFoundError as e:
     pass
-
 
 # ---------------------- Code Starts Here ----------------------#
 
@@ -37,7 +28,6 @@ def sorted_squares(nums: list[int]) -> list[int]:
     Returns:
         list[int]: the sorted square of the array
     """
-
     ans = [0] * len(nums)
 
     w = len(nums) - 1
