@@ -34,10 +34,9 @@ def brick_game(num: int) -> str:
 
     if num - bricks > rounds + 1:
         return "Motu"
-    elif num - bricks == 0:
+    if num - bricks == 0:
         return "Motu"
-    else:
-        return "Patlu"
+    return "Patlu"
 
 
 if __name__ == "__main__":
