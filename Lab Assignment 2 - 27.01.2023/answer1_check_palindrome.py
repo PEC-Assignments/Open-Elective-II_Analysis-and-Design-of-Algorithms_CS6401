@@ -35,11 +35,10 @@ def check_palindrome(inp: str) -> str:
     # General solution
     if len(inp) == 0 or len(inp) == 1:
         return "True"
-    else:
-        for i in range(len(inp) // 2):
-            if inp[i] != inp[-i - 1]:
-                return "False"
-        return "True"
+    for i in range(len(inp) // 2):
+        if inp[i] != inp[-i - 1]:
+            return "False"
+    return "True"
 
 
 if __name__ == "__main__":
