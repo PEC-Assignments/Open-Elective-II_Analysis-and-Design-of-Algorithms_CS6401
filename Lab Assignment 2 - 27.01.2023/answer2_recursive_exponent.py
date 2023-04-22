@@ -37,8 +37,7 @@ def pwr(base: int, exp: int) -> int:
 
     if exp % 2 == 0:
         return temp * temp
-    else:
-        return base * temp * temp
+    return base * temp * temp
 
 
 if __name__ == "__main__":
