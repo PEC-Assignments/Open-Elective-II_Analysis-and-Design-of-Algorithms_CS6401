@@ -1,4 +1,4 @@
-# Solution Question - matrix search
+# Solution Question 1 - matrix search
 
 # ---------------- MSB's Coding Template ---------------- #
 """
