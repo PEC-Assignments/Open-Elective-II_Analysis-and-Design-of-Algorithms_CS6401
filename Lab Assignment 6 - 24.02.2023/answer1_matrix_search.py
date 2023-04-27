@@ -32,7 +32,7 @@ def find_element(mat: list[list[int]], key: int) -> None:
         return
 
     # `M × N` matrix
-    (M, N) = (len(mat), len(mat[0]))
+    M, N = len(mat), len(mat[0])
 
     # start from `(0, N-1)`, i.e., top-rightmost cell of the matrix
     i = 0
