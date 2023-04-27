@@ -45,3 +45,6 @@ if __name__ == "__main__":
 # Complexity Analysis of the above solution:
 # Time Complexity: O(1)
 # Space Complexity: O(1)
+
+# Sample input:
+# 13

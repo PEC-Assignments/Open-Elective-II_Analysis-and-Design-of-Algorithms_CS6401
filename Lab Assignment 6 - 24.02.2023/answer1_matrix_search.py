@@ -27,8 +27,11 @@ def find_element(mat: list[list[int]], key: int) -> None:
         key (int): the element to be searched
     """
 
+    found = False
+    print(f"Element {key} found at positions:")
     # base case
     if not mat or len(mat) == 0:
+        print("Element not found")
         return
 
     # `M × N` matrix
@@ -50,16 +53,19 @@ def find_element(mat: list[list[int]], key: int) -> None:
 
         # if the current element is equal to the key
         else:
-            print("Element", key, "is found at position", (i, j))
+            found = True
+            print((i, j))
             i = i + 1
             j = j - 1
+    if not found:
+        print("Element not found")
 
 
 if __name__ == "__main__":
     R = int(input("Enter the number of rows: \n"))
     mtrx = [list(map(int, input(f"Enter the {i}th row: \n").split())) for i in range(R)]
     ele = int(input("Enter the element to be searched: \n"))
-    # mtrx =
+    # mtrx = [
     #     -4, -3, -1, 3, 5
     #     -3, -2, 2, 4, 6
     #     -1, 1, 3, 5, 8
@@ -71,3 +77,11 @@ if __name__ == "__main__":
 # Complexity Analysis of the above solution:
 # Time Complexity - O(m+n)
 # Space Complexity - O(1)
+
+# Sample input:
+# 4
+# -4 -3 -1 3 5
+# -3 -2 2 4 6
+# -1 1 3 5 8
+# 3 4 7 8 9
+# 3

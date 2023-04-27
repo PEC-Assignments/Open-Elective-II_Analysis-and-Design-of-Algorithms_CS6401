@@ -40,3 +40,7 @@ if __name__ == "__main__":
 # Complexity analysis of the above solution:
 # Time Complexity: O(n)
 # Space Complexity: O(n)
+
+# Sample input:
+# abbbc
+# ab*c

@@ -38,8 +38,11 @@ def letter_case_permutation(inp: str) -> list[str]:
 
 
 if __name__ == "__main__":
-    print(letter_case_permutation(input()))
+    print(*letter_case_permutation(input()))
 
 # Complexity Analysis of the above solution:
 # Time Complexity: O(2^n)
 # Space Complexity: O(2^n)
+
+# Sample input:
+# a1b2

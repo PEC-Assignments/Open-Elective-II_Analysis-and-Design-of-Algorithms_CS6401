@@ -46,10 +46,13 @@ def sort_stack(stack: list[int]) -> None:
 
 
 if __name__ == "__main__":
-    s = [30, -5, 18, 14, -3]
+    s = list(map(int, input().strip().split()))
     sort_stack(s)
-    print(s)
+    print(*s)
 
 # Complexity Analysis of the above solution:
 # Time Complexity: O(n^2)
 # Space Complexity: O(n)
+
+# Sample input:
+# 30 -5 18 14 -3

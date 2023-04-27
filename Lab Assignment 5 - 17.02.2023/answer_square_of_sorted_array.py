@@ -50,8 +50,11 @@ def sorted_squares(nums: list[int]) -> list[int]:
 
 
 if __name__ == "__main__":
-    print(sorted_squares(list(map(int, input().strip().split()))))
+    print(*sorted_squares(list(map(int, input().strip().split()))))
 
 # Complexity Analysis of the above solution:
 # Time Complexity: O(n)
 # Space Complexity: O(1)
+
+# Sample input:
+# -6 -3 -1 2 4 5

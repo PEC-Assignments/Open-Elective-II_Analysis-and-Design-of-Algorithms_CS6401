@@ -55,3 +55,6 @@ if __name__ == "__main__":
 # Complexity Analysis of the above solution:
 # Time Complexity: O(n^2)
 # Space Complexity: O(n)
+
+# Sample input:
+# 1 2 3 4 5
