@@ -79,6 +79,7 @@ for task in tasks:
 print("To-do list:", to_do)
 
 # Output the number of conflicts for each job
+print("Number of conflicts for each job:")
 for task in tasks:
     print(f"Job {task} has {count_conflicts(task, to_do)} conflicts")
 
