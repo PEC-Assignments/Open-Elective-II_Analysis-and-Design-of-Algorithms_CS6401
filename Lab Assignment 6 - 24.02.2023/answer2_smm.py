@@ -20,11 +20,14 @@ except FileNotFoundError as __:
 # ---------------------- Code Starts Here ----------------------#
 
 
-def split(matrix):
-    """
-    Splits a given matrix into quarters.
-    Input: nxn matrix
-    Output: tuple containing 4 n/2 x n/2 matrices corresponding to a, b, c, d
+def split(matrix: np.ndarray) -> tuple[np.ndarray, np.ndarray, np.ndarray, np.ndarray]:
+    """Split a given matrix into quarters.
+
+    Args:
+        matrix (np.ndarray): matrix to be split of shape n x n, where n is even
+
+    Returns:
+        tuple[np.ndarray]: tuple containing 4 n/2 x n/2 matrices corresponding to a,b,c,d
     """
     row, col = matrix.shape
     row2, col2 = row // 2, col // 2
@@ -37,10 +40,15 @@ def split(matrix):
 
 
 def strassen(x, y):
-    """
-    Computes matrix product by divide and conquer approach, recursively.
-    Input: nxn matrices x and y
-    Output: nxn matrix, product of x and y
+    """Calculates matrix product by divide and conquer approach of
+    Strassen's Algorithm Matrix Multiplication Algorithm,recursively.
+
+    Args:
+        x (np.ndarray): first matrix of shape n x n, where n is even which is to be multiplied\n
+        y (np.ndarray): Second matrix of shape n x n, where n is even which is to be multiplied
+
+    Returns:
+        np.ndarray: Product of x and y
     """
 
     # Base case when size of matrices is 1x1

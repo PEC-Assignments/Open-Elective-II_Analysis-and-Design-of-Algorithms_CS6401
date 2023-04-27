@@ -23,7 +23,7 @@ def pwr(base: int, exp: int) -> int:
     """recursive function to calculate power of a number
 
     Args:
-        base (int): base number
+        base (int): base number\n
         exp (int): exponent
 
     Returns:

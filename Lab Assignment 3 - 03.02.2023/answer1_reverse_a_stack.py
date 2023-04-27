@@ -36,7 +36,7 @@ def insert_at_bottom(stack: list, item: int) -> None:
     """a helper function to insert an item at the bottom of the stack.
 
     Args:
-        stack (list): a stack of integers
+        stack (list): a stack of integers\n
         item (int): item to be inserted at the bottom of the stack
     """
     if len(stack) == 0:

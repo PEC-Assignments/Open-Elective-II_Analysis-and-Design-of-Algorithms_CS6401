@@ -22,7 +22,7 @@ def sorted_insert(stack: list[int], element: int) -> None:
     """a helper function to insert an element in a sorted manner in a stack.
 
     Args:
-        stack (list[int]): the stack in which the element is to be inserted
+        stack (list[int]): the stack in which the element is to be inserted\n
         element (int): the element to be inserted
     """
     if len(stack) == 0 or element > stack[-1]:

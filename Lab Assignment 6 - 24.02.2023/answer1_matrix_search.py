@@ -23,7 +23,7 @@ def find_element(mat: list[list[int]], key: int) -> None:
     """a function to find the element in a matrix
 
     Args:
-        mat (list[list[int]]): the matrix to be searched
+        mat (list[list[int]]): the matrix to be searched\n
         key (int): the element to be searched
     """
 

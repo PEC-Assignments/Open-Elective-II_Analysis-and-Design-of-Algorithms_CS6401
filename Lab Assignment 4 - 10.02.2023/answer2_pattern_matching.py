@@ -25,7 +25,7 @@ def pattern_matching(text: str, pattern: str) -> bool:
     """a function to check if a string matches a given pattern.
 
     Args:
-        text (str): the string to be checked
+        text (str): the string to be checked\n
         pattern (str): the pattern to be matched
 
     Returns:
