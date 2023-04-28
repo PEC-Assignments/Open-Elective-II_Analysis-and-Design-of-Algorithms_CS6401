@@ -17,18 +17,20 @@ except FileNotFoundError as __:
 
 
 # ---------------------- Code Starts Here ----------------------#
-def knapSack(W: int, wt: list[int], val: list[int], n: int) -> int:
+def knapSack(W: int, wt: list[int], val: list[int]) -> int:
     """0 1 Knapsack Problem using Dynamic Programming
 
     Args:
         W (int): weight of knapsack
-        wt (list[int]): list of weights of items
-        val (list[int]): list of values of items
-        n (int): number of items
+        wt (list[int]): list of weights of items\n
+        val (list[int]): list of values of items\n
+        n (int): number of items\n
 
     Returns:
         int: maximum value of knapsack
     """
+
+    n = len(wt)
 
     # Making the dp array
     dp = [0 for i in range(W + 1)]
@@ -49,8 +51,21 @@ def knapSack(W: int, wt: list[int], val: list[int], n: int) -> int:
 
 # Driver code
 if __name__ == "__main__":
-    profit = [60, 100, 120]
-    weight = [10, 20, 30]
-    w = 50
-    num = len(profit)
-    print(knapSack(w, weight, profit, num))
+    print(
+        knapSack(
+            int(input("Enter the capacity of knapsack:\n")),
+            list(map(int, input("Enter the weights:\n").split())),
+            list(
+                map(int, input("Enter the profits for respective weights:\n").split())
+            ),
+        )
+    )
+
+# Complexity Analysis of the above solution:
+# Time Complexity: O(n*W)
+# Space Complexity: O(W)
+
+# Sample Input:
+# 50
+# 10 20 30
+# 60 100 120
