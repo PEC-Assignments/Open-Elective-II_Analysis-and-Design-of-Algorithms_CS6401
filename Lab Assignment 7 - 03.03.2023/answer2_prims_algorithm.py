@@ -44,7 +44,7 @@ class Graph:
         from the set of vertices not yet included in shortest path tree.
 
         Args:
-            key (list[int]): list of keys of each vertex
+            key (list[int]): list of keys of each vertex\n
             mstSet (list[bool]): list of boolean values to check if a vertex is in the MST
 
         Returns:

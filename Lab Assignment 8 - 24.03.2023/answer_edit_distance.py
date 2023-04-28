@@ -27,7 +27,7 @@ class Solution:
         required to convert string s to string t
 
         Args:
-            s (str): the source string
+            s (str): the source string\n
             t (str): the target string
 
         Returns:
